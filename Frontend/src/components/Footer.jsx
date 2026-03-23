@@ -8,7 +8,7 @@ const Footer = () => {
 
         {/* Brand & About */}
         <div style={{ flex: "1 1 250px", marginBottom: "2rem" }}>
-          <h2 style={{ fontSize: "1.5rem", fontWeight: "bold", marginBottom: "1rem" }}>ZEESHU</h2>
+          <h2 style={{ fontSize: "1.5rem", fontWeight: "bold", marginBottom: "1rem" }}>DownTown</h2>
           <p style={{ lineHeight: "1.6" }}>
             A premium dining experience in Hajipur, Bihar. Enjoy delicious meals in a cozy and welcoming environment.
           </p>
