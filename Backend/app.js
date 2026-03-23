@@ -10,13 +10,8 @@ import reservationRouter from "./routes/reservationRoute.js";
 
 const app = express();
 
-app.use(
-  cors({
-    origin: [process.env.FRONTEND_URL],
-    methods: ["POST","GET","PUT","DELETE"],
-    credentials: true
-  })
-);
+app.use(cors());
+
 
 // parsers first
 app.use(express.json());
